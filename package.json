@@ -1,0 +1,28 @@
+{
+  "name": "insta-mern-setup",
+  "version": "1.0.0",
+  "description": "A user-friendly npm package for effortlessly setting up a MERN application. This package simplifies the setup process, helping you get started quickly with a ready-to-go development environment.",
+  "main": "index.js",
+  "bin": {
+    "insta-mern-setup": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [ "mern",
+  "mongodb",
+  "express",
+  "react",
+  "nodejs",
+  "full-stack",
+  "setup",
+  "boilerplate",
+  "starter-kit",
+  "development"],
+  "author": "brijesh",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^10.2.2",
+    "shelljs": "^0.8.5"
+  }
+}
