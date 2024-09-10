@@ -11,7 +11,7 @@ if(process.env.DB){
     require("./connections/connections");  
 }
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:5000'], // add your frontend URL
+  origin: ['http://localhost:3000', 'http://localhost:5000' ,'http://localhost:5173/'], // add your frontend URL
   credentials: true,
 }));
 app.use(express.json());
