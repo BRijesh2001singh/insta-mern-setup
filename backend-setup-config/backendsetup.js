@@ -79,8 +79,8 @@ async function setupNode(full, title) {
                 shell.exec('nodemon index.js');
             else {
 
-                console.log('⚠️ Backend set up complete, now go to backend folder and run ➡️ nodemon index.js ⚠️');
-                console.log('⚠️ Frontend set up complete, now go to frontend folder and run ➡️ npm run dev ⚠️');
+                console.log('Backend set up complete   ✅ , now go to backend folder and run ====▶ nodemon index.js ');
+                console.log('Frontend set up complete  ✅, now go to frontend folder and run ====▶ npm run dev ');
             }
         }
 

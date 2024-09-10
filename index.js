@@ -3,7 +3,6 @@ const inq = require('inquirer');
 const shell = require('shelljs');
 const { setupNode } = require("./backend-setup-config/backendsetup");
 const { setupfrontend } = require('./frontend-setup-config/frontendsetup');
-const { askgit } = require('./gitsetup');
 const main = async () => {
     const ans = await inq.default.prompt({
         type: 'list',
@@ -31,10 +30,11 @@ const main = async () => {
             await setupNode(true, res.project_title);
             shell.cd('..');//server folder se bahar nikal
             await setupfrontend(true, res.project_title);
-
+            shell.cd('..');
         } catch (error) {
             console.log(error);
         }
     }
+
 }
 main();
