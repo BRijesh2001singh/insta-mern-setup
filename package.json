@@ -1,6 +1,6 @@
 {
   "name": "mern-insta-setup",
-  "version": "1.3.3",
+  "version": "1.4.3",
   "description": "A beginner-friendly npm package for effortlessly setting up a MERN application. This package simplifies the setup process, helping you get started quickly with a ready-to-go development environment.",
   "main": "index.js",
   "bin": {
