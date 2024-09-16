@@ -34,7 +34,9 @@ mern-insta-setup
 Contributions are welcome! If you'd like to improve this project, follow these steps:
 
 Fork the repository.
-
+```bash
+https://github.com/BRijesh2001singh/insta-mern-setup
+```
 Create a new branch (git checkout -b feature-branch).
 
 Make your changes.
