@@ -25,7 +25,7 @@ async function askgit() {
     const { checkgithubRepo } = await inq.default.prompt({
         name: "checkgithubRepo",
         type: 'confirm',
-        message: "do you connect your github reposirtory?",
+        message: "do you want to connect your github reposirtory?",
         default: false
     });
     if (checkgithubRepo) {
